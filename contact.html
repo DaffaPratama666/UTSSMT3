@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kontak — Daffa P S</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Nama Lengkap</a>
+      <button class="nav-toggle" id="navToggle3" aria-label="Buka menu">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="mainNav3" class="nav">
+        <ul>
+          <li><a href="index.html">Tentang Saya</a></li>
+          <li><a href="portofolio.html">Proyek Saya</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container contact">
+      <h1>Kontak</h1>
+      <p>Email: <a href="mailto:email@anda.com">email@anda.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/username" target="_blank" rel="noopener">linkedin.com/in/username</a></p>
+      <p>GitHub: <a href="https://github.com/username" target="_blank" rel="noopener">github.com/username</a></p>
+
+      <!-- Form sederhana (nilai tambah) -->
+      <form class="contact-form" onsubmit="return false;">
+        <label for="name">Nama</label>
+        <input id="name" name="name" required />
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required />
+        <label for="message">Pesan</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn" type="submit">Kirim</button>
+      </form>
+      <p class="note">* Form hanya demo — tidak harus mengirim data (sesuai ketentuan tugas).</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Nama Anda</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

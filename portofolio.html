@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Proyek — Daffa P S</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Nama Lengkap</a>
+      <button class="nav-toggle" id="navToggle2" aria-label="Buka menu">
+        <span class="hamburger"></span>
+      </button>
+      <nav id="mainNav2" class="nav">
+        <ul>
+          <li><a href="index.html">Tentang Saya</a></li>
+          <li><a href="portfolio.html">Proyek Saya</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="container projects">
+      <h1>Proyek Saya</h1>
+
+      <div class="project-grid">
+        <!-- Project 1 (hardcoded) -->
+        <article class="project">
+          <img src="images/proj1.jpg" alt="Thumbnail Proyek 1" />
+          <h3>Nama Proyek 1</h3>
+          <p>Deskripsi singkat proyek 1 (1–2 kalimat).</p>
+          <button class="btn open-modal" data-title="Nama Proyek 1" data-desc="Deskripsi lengkap proyek 1">Lihat Detail</button>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project">
+          <img src="images/proj2.jpg" alt="Thumbnail Proyek 2" />
+          <h3>Nama Proyek 2</h3>
+          <p>Deskripsi singkat proyek 2.</p>
+          <button class="btn open-modal" data-title="Nama Proyek 2" data-desc="Deskripsi lengkap proyek 2">Lihat Detail</button>
+        </article>
+
+        <!-- Tambah lebih banyak project di sini -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Tutup">×</button>
+      <h2 id="modalTitle"></h2>
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p>© 2025 Nama Anda</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
