@@ -20,4 +20,4 @@ Struktur situs terdiri dari tiga halaman utama:
 3. **contact.html — Kontak**
 
 link repositori : https://github.com/DaffaPratama666/UTSSMT3.git
-link git page : 
+link git page : https://daffapratama666.github.io/UTSSMT3/
